@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
 
-const Weather = () => {
+const CurrentWeather = () => {
   const [weather, setWeather] = useState({});
   const [location, setLocation] = useState('Tokyo');
 
@@ -59,4 +59,4 @@ const Weather = () => {
   );
 };
 
-export default Weather;
+export default CurrentWeather;
